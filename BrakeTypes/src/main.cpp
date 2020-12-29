@@ -21,6 +21,7 @@
 
 using namespace vex;
 
+//This method shows off how to both use a method to change all the braketypes at once and call for brakeType parameters.
 void changeBrakeType(vex::brakeType type)
 {
   bLeftDrive.setStopping(type);
